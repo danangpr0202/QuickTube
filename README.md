@@ -1,4 +1,4 @@
-# QuickTube.io - Video Downloader
+# QuickTube.io - Video & Audio Downloader
 
 ## Overview
 QuickTube.io is a modern web application built with Next.js that allows users to download videos and music from various platforms including YouTube, TikTok, Instagram, and more. The application features a clean, responsive UI and offers both free and premium tiers.
