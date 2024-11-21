@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #00B8D9;
+  --primary-hover: #00a3c0;
+  --accent: #FF6F00;
+  --accent-hover: #e66400;
+  --dark: #333333;
+  --dark-secondary: #000000;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--dark);
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+} 
